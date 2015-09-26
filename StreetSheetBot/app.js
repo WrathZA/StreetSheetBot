@@ -1,6 +1,6 @@
 ﻿var http = require('http');
 var querystring = require('querystring');
-var Twit = require('Twit');
+var Twit = require('twit');
 var interpolate = require('interpolate');
 
 var options = {
