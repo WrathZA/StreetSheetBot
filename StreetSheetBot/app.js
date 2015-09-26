@@ -52,15 +52,11 @@ function tweet() {
         y: output.pop() //boom
     });
     
-    console.log(result);
-    
-    //T.post('statuses/update', { status: result }, function (err, data, response) {
-    //    console.log(data)
-    //})
+    T.post('statuses/update', { status: result }, function (err, data, response) {
+        console.log(data)
+    })
 }
 
-//setInterval(logic, 60*60*1000);
-setInterval(logic, 2000);
-
+setInterval(logic, 60*60*1000); //An hour. 
 
 
