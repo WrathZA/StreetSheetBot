@@ -1,0 +1,14 @@
+{
+  "name": "StreetSheetBot",
+  "version": "0.0.0",
+  "description": "StreetSheetBot",
+  "main": "app.js",
+  "author": {
+    "name": "Brett",
+    "email": ""
+  },
+  "dependencies": {
+    "interpolate": "^0.1.0",
+    "twit": "^2.1.0"
+  }
+}
